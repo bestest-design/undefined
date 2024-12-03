@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[undefined] Events</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #dddddd;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        p {
+            margin: 0.5em 0;
+        }
+        a {
+            color: #00ce00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            border: 1px dashed #00ce00;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .policies-container {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .policy {
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>[undefined]</h1>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>Upcoming Events</h2>
+            <iframe src="https://ra.co/promoters/153163/widget/events?theme=dark&transparentBackground=true"></iframe>
+        </section>
+
+        <section class="section policies-container">
+            <h2>Policies</h2>
+            <div class="policy">
+                <strong>Refund and Dispute Policy:</strong>
+                <p>
+                    Claims related to incorrect or duplicate charges are eligible for disputes or refunds. 
+                    However, completed purchases of event entry tickets are final and non-refundable, as transactions 
+                    occur exclusively in person at the venue. Presale tickets are managed by our ticketing partner, 
+                    <a href="https://ra.co/purchase-policy" target="_blank">Resident Advisor</a>.
+                </p>
+            </div>
+            <div class="policy">
+                <strong>Terms and Conditions of Promotions:</strong>
+                <p>
+                    We do not retain customer information or issue promotional follow-ups. All promotional activities 
+                    adhere strictly to our commitment to buyer privacy. See more on <a href="https://ra.co/privacy" target="_blank">Resident Advisor Privacy Policy</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 [undefined] | <a href="https://ra.co/promoters/153163" target="_blank">Resident Advisor</a></p>
+    </footer>
+</body>
+</html>
